@@ -1,0 +1,19 @@
+@media screen and (min-width: 576px){
+    .sidebar{
+        flex-basis: 200px;
+    }
+
+    main{
+       
+    }
+}
+
+@media screen and (min-width: 768px){
+   
+}
+
+@media screen and (min-width: 992px){
+   
+}
+
+

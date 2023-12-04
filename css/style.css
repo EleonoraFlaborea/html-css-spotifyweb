@@ -10,15 +10,59 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
 /*Utils*/
 
-/**/
+body{
+    min-width: 575px;
+}
 
-/**/
+.container{
+    display: flex;
+}
 
-/**/
+/*SIDEBAR*/
+.sidebar{
+    width: 10%;
+    border: 2px solid red;
+    background-color: red;
+    z-index: 1;
+    overflow: auto;
 
-/**/
+}
+
+/*MAIN*/
+main{
+    width: 90%;
+    border: 2px solid green;
+    height: calc(100vh - 80px);
+    overflow: auto;
+    padding-top: 90px;
+}
+
+/*HEADER*/
+header{
+    height: 80px;
+    width: 100%;
+    border: 2px solid yellow;
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: auto;
+
+}
+
+/*FOOTER*/
+footer{
+    height: 80px;
+    border: 2px solid lightblue;
+    background-color: lightblue;
+    overflow: auto;
+
+
+
+}
+
+
+
 

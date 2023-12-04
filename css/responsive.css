@@ -7,12 +7,21 @@
         width: calc(100% - 200px); 
     }
 
-    .logo{
+    .logo-desktop{
         display: block;
+        padding: 15px 15px;
     }
 
-    .logo-small{
+    .logo-mobile{
         display: none;
+    }
+
+    .banner-desktop{
+        display: inline;
+    }
+
+    .banner-mobile{
+        width: 30%;
     }
 }
 

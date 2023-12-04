@@ -25,12 +25,23 @@ img{
     width: 100%;
 }
 
+.upper-space{
+    padding-top: 10px;
+}
+
+.bottom-space{
+    padding-bottom: 10px;
+}
+
 /*SIDEBAR*/
 .sidebar{
     width: 10%;
     background-color: #000000;
     z-index: 1;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card{
@@ -57,6 +68,36 @@ img{
 .banner-mobile{
     padding: 5px 18px;
 }
+
+/*playlist*/
+.playlist{
+    height: 150px;
+    overflow: auto;
+    line-height: 30px;
+    display: none;
+}
+
+.plus-banner{
+    color: black;
+    background-color: grey;
+    padding: 0px 10px;
+    font-size: 35px;
+}
+
+.container-playlist{
+    padding: 20px 15px;
+    display: none;
+}
+
+/*user*/
+.user-banner{
+    margin: 10px 10px;
+    background-color: #808080;
+    
+    
+}
+
+
 
 
 
@@ -90,9 +131,6 @@ footer{
     border: 2px solid lightblue;
     background-color: lightblue;
     overflow: auto;
-
-
-
 }
 
 

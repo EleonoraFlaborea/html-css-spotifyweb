@@ -23,7 +23,15 @@
     .banner-mobile{
         width: 30%;
     }
+
+    .container-playlist{
+        display: block;
+    }
+    .playlist{
+        display: block;
+    }
 }
+
 
 
 

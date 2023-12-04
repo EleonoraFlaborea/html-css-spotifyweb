@@ -1,9 +1,11 @@
 @media screen and (min-width: 576px){
     .sidebar{
-        flex-basis: 200px;
+        width: 200px;
+        
     }
 
     main{
+        width: calc(100% - 200px);
        
     }
 }

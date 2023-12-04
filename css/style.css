@@ -20,20 +20,27 @@ body{
     display: flex;
 }
 
+img{
+    width: 100%;
+}
+
 /*SIDEBAR*/
 .sidebar{
     width: 10%;
-    border: 2px solid red;
-    background-color: red;
+    background-color: #000000;
     z-index: 1;
     overflow: auto;
-
 }
+
+.logo{
+    display: none;
+}
+
 
 /*MAIN*/
 main{
     width: 90%;
-    border: 2px solid green;
+    background-color: #141921;
     height: calc(100vh - 80px);
     overflow: auto;
     padding-top: 90px;
@@ -43,8 +50,7 @@ main{
 header{
     height: 80px;
     width: 100%;
-    border: 2px solid yellow;
-    background-color: yellow;
+    background-color: #080B13;
     position: fixed;
     top: 0;
     right: 0;

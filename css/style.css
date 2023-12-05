@@ -8,17 +8,19 @@
 /*Generics*/
 *{
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 /*Utils*/
 
-body{
-    min-width: 575px;
-    color: white;
-}
 
-.container{
+.container-section{
+    background-color: #141921;
+    height: calc(100vh - 80px);
+    overflow: auto;
+
     display: flex;
+    flex-direction: row;
 }
 
 img{
@@ -35,10 +37,10 @@ img{
 
 /*SIDEBAR*/
 .sidebar{
-    width: 10%;
     background-color: #000000;
-    z-index: 1;
-    overflow: auto;
+    flex-basis: 50px;
+    flex-shrink: 0;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -93,22 +95,11 @@ img{
 .user-banner{
     margin: 10px 10px;
     background-color: #808080;
-    
-    
 }
-
-
-
-
-
-
-
 
 /*MAIN*/
 main{
-    width: 90%;
-    background-color: #141921;
-    height: calc(100vh - 80px);
+    flex-grow: 1;
     overflow: auto;
 }
 

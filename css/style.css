@@ -25,6 +25,10 @@ img{
     padding-bottom: 10px;
 }
 
+.bottom-spacexl{
+    padding-bottom: 30px;
+}
+
 .btn{
     padding: 10px 25px;
     border: 1px solid white;
@@ -38,6 +42,10 @@ a{
 
 ul{
     list-style-type: none;
+}
+
+h1{
+    font-size: 30px;
 }
 
 /*CONTAINER*/
@@ -61,7 +69,7 @@ ul{
     justify-content: space-between;
 }
 
-.card{
+.card-nav{
     display: flex;
     flex-direction: row;
 }
@@ -142,6 +150,32 @@ header{
     justify-content: center;
 }
 
+.playlist-title{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 50px 15px;
+}
+
+.col{
+    max-width: 200px;
+    padding: 15px;
+    flex-basis:  calc(100% /2);
+}
+
+.card{
+    text-align: center;
+}
+
+.p-grey{
+    color: #72757A;
+}
 
 /*FOOTER*/
 footer{

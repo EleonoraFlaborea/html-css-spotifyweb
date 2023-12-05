@@ -9,20 +9,10 @@
 *{
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 /*Utils*/
-
-.container-section{
-    background-color: #141921;
-    height: calc(100vh - 80px);
-    overflow: auto;
-
-    display: flex;
-    flex-direction: row;
-}
-
 img{
     width: 100%;
 }
@@ -36,11 +26,28 @@ img{
 }
 
 .btn{
-    text-decoration: none;
     padding: 10px 25px;
     border: 1px solid white;
     border-radius: 30px;
     line-height: 80px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*CONTAINER*/
+.container-section{
+    background-color: #141921;
+    height: calc(100vh - 80px);
+    overflow: auto;
+
+    display: flex;
+    flex-direction: row;
 }
 
 /*SIDEBAR*/
@@ -111,7 +118,7 @@ main{
     overflow: auto;
 }
 
-/*HEADER*/
+/*MAIN-HEADER*/
 header{
     height: 80px;
     background-color: #080B13;
@@ -125,6 +132,16 @@ header{
     text-align: right;
     padding-right: 15px;
 }
+
+/*MAIN-SECTION*/
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
 
 /*FOOTER*/
 footer{

@@ -110,25 +110,24 @@ main{
     background-color: #141921;
     height: calc(100vh - 80px);
     overflow: auto;
-    padding-top: 90px;
 }
 
 /*HEADER*/
 header{
     height: 80px;
-    width: 100%;
     background-color: #080B13;
-    position: fixed;
+    position: sticky;
     top: 0;
+    left: 0;
     right: 0;
     overflow: auto;
+    margin-bottom: 30px;
 
 }
 
 /*FOOTER*/
 footer{
     height: 80px;
-    border: 2px solid lightblue;
     background-color: lightblue;
     overflow: auto;
 }

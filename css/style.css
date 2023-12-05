@@ -9,10 +9,10 @@
 *{
     font-family: 'Montserrat', sans-serif;
     color: white;
+    font-size: 12px;
 }
 
 /*Utils*/
-
 
 .container-section{
     background-color: #141921;
@@ -33,6 +33,14 @@ img{
 
 .bottom-space{
     padding-bottom: 10px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 1px solid white;
+    border-radius: 30px;
+    line-height: 80px;
 }
 
 /*SIDEBAR*/
@@ -114,6 +122,8 @@ header{
     overflow: auto;
     margin-bottom: 30px;
 
+    text-align: right;
+    padding-right: 15px;
 }
 
 /*FOOTER*/

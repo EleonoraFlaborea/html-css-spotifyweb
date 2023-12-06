@@ -68,7 +68,7 @@ h1{
     flex-direction: column;
     justify-content: space-between;
 
-    padding: 10px 15px;
+    padding: 10px 12px;
 }
 
 .card-nav{
@@ -119,16 +119,21 @@ h1{
 
 /*user*/
 .user-banner{
-    margin: 10px 10px;
+    padding: 5px 5px;
     background-color: #808080;
+    border-radius: 50%;
+
+    margin-right: 5px;
 }
 
 .break-line{
+    display: none;
+
     height: 1px;
     width: 100%;
     background-color: grey;
 
-    margin-top: 10px;
+    margin: 10px 0;
 }
 
 /*MAIN*/
@@ -160,6 +165,26 @@ header{
     gap: 25px;
     justify-content: center;
 }
+
+.neon-line{
+    background-color: #ADFF2F;
+}
+
+.vertical-line{
+    width: 3px;
+    height: 50px;
+    margin-left: -13px;
+    margin-right: 10px;
+    display: none;
+}
+
+.horizontal-line{
+    height: 2px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
 
 .playlist-title{
     padding-left: 30px;

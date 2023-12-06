@@ -21,7 +21,7 @@
     }
 
     .banner-mobile{
-        width: 30%;
+        width: 20%;
     }
 
     .container-playlist{
@@ -43,6 +43,14 @@
 
     .symbol-right{
         margin-right: 10px;
+    }
+
+    .break-line{
+        display: block;
+    }
+
+    .vertical-line{
+        display: block;
     }
 }
 

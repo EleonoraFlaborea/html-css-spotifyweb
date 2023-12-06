@@ -34,10 +34,16 @@ img{
     border: 1px solid white;
     border-radius: 30px;
     line-height: 80px;
+    color: white;
 }
 
 a{
     text-decoration: none;
+    color: grey;
+}
+
+a:hover{
+    color: white;
 }
 
 ul{
@@ -74,6 +80,15 @@ h1{
 .card-nav{
     display: flex;
     flex-direction: row;
+}
+
+.color-grey{
+    color: grey;
+}
+
+.color-grey:hover{
+    color: white;
+
 }
 
 /*logo*/
@@ -117,6 +132,14 @@ h1{
     display: none;
 }
 
+.playlist li{
+    color: grey;
+}
+
+.playlist li:hover{
+    color: white;
+}
+
 /*user*/
 .user-banner{
     padding: 5px 5px;
@@ -145,7 +168,7 @@ main{
 /*MAIN-HEADER*/
 header{
     height: 80px;
-    background-color: #080B13;
+    background-color: rgba(12, 15, 20, 0.5);
     position: sticky;
     top: 0;
     left: 0;
@@ -214,8 +237,33 @@ header{
 
 .card-circle{
     border-radius: 50%;
-
 }
+
+/* HOVER PLAYER*/
+.player{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(12, 15, 20, 0.5);
+}
+
+.card figure {
+    position: relative;
+}
+
+.card figure:hover .player{
+    display: flex;
+}
+
+
 
 /*FOOTER*/
 footer{
@@ -243,6 +291,14 @@ footer{
     gap: 10px;
 
     padding: 10px 20px;
+}
+
+.title-author{
+    text-decoration: underline;
+}
+
+.p-grey:hover{
+    color: white;
 }
 
 /*col center*/
@@ -274,6 +330,10 @@ footer{
     background-color: white;
     width: 20%;
     margin-top: 0;
+}
+
+.white-line:hover{
+    background-color: #ADFF2F;
 }
 
 /*col right*/

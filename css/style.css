@@ -25,8 +25,8 @@ img{
     padding-bottom: 10px;
 }
 
-.bottom-spacexl{
-    padding-bottom: 30px;
+.upper-spacexl{
+    padding-top: 50px;
 }
 
 .btn{
@@ -152,7 +152,6 @@ header{
 
 .playlist-title{
     padding-left: 30px;
-    padding-top: 50px;
 }
 
 .row{
@@ -177,13 +176,14 @@ header{
     color: #72757A;
 }
 
+.card-circle{
+    border-radius: 50%;
+
+}
+
 /*FOOTER*/
 footer{
     height: 80px;
-    background-color: lightblue;
+    background-color: #282828;
     overflow: auto;
 }
-
-
-
-

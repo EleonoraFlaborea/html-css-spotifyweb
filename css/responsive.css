@@ -1,7 +1,6 @@
 @media screen and (min-width: 576px){
     .sidebar{
-    flex-basis: 200px;
-        
+    flex-basis: 200px; 
     }
 
     main{
@@ -28,9 +27,16 @@
     .container-playlist{
         display: block;
     }
+
     .playlist{
         display: block;
     }
+
+    .title-author{
+       display: inline;
+       font-size: 10px;
+    }
+
 }
 
 

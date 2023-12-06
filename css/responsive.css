@@ -1,6 +1,6 @@
 @media screen and (min-width: 576px){
     .sidebar{
-    flex-basis: 200px; 
+       flex-basis: 200px; 
     }
 
     main{
@@ -9,7 +9,7 @@
 
     .logo-desktop{
         display: block;
-        padding: 15px 15px;
+        padding: 13px 0;
     }
 
     .logo-mobile{
@@ -34,9 +34,16 @@
 
     .title-author{
        display: inline;
-       font-size: 10px;
+       font-size: 9px;
     }
 
+    .symbol-left{
+        margin-left: 20px;
+    }
+
+    .symbol-right{
+        margin-right: 10px;
+    }
 }
 
 
@@ -47,15 +54,41 @@
 
     .col{
        max-width: 150px;
+       flex-basis:  calc(100% /4);
     }
-   
+
+   .col-center{
+       flex: 0 0 400px;
+   }
+
+   .card-center .grey-line{
+       width: 230px;
+   }
+
+   .card-center .white-line{
+       width: 20%;  
+    }
+
+    .symbol-left{
+        display: inline;
+        font-size: 15px;
+        margin-right: 5px;
+    }
+
+    .card-left{
+       padding: 19px 10px;
+    }
+
+    .title-size{
+        font-size: 10px;
+    }
 }
 
 @media screen and (min-width: 992px){
     .col{
-    max-width: 200px;
-    padding: 15px;
-    flex-basis:  calc(100% /6);
+       max-width: 200px;
+       padding: 15px;
+       flex-basis:  calc(100% /6);
     }
    
     p{
@@ -68,6 +101,22 @@
 
     .row{
         padding-top: 10px;
+    }
+
+    .card-right{
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 10px;
+    }
+
+
+    .card-center .grey-line{
+         width: 300px;
+    }
+
+    .card-center .white-line{
+         width: 20%;  
     }
 }
 

@@ -50,7 +50,7 @@ ul{
     list-style-type: none;
 }
 
-h1{
+h3{
     font-size: 21px;
 }
 
@@ -160,7 +160,7 @@ h1{
 }
 
 /*MAIN*/
-main{
+.section-main{
     flex-grow: 1;
     overflow: auto;
 }

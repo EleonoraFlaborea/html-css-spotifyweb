@@ -102,11 +102,12 @@ h1{
     display: none;
 }
 
-.plus-banner{
+.fa-plus{
     color: black;
     background-color: grey;
-    padding: 0px 10px;
-    font-size: 35px;
+    padding: 5px 5px;
+    font-size: 30px;
+    margin-right: 5px;
 }
 
 .container-playlist{
@@ -186,4 +187,78 @@ footer{
     height: 80px;
     background-color: #282828;
     overflow: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+/*col left*/
+.col-left{
+    border: 1px dashed yellow;
+    flex-basis: calc(100%/3);
+}
+
+.img-play{
+    height: 40px;
+    width: 40px;
+}
+
+.card-left{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 20px;
+}
+
+/*col center*/
+.col-center{
+    border: 1px dashed yellow;
+    flex-basis: calc(100%/3);   
+}
+
+.card-center{
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+
+    margin-top: 15px;
+}
+
+.card-center span{
+    font-size: 10px;
+}
+
+.grey-line{
+    height: 4px;
+    width: 100px;
+    background-color: grey;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+
+.white-line{
+    background-color: white;
+    width: 20%;
+    margin-top: 0;
+}
+
+/*col right*/
+.col-right{
+    border: 1px dashed yellow;
+    flex-basis: calc(100%/3);
+}
+
+.card-right{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-15{
+    margin-right: 5px;
+}
+
+.volume-line{
+    margin-top: 0px;  
 }
